@@ -4,7 +4,7 @@ import { profile, site } from '../content/cv';
 
 const GLYPHS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#%&*/<>';
 const SCRAMBLE_MS = 750;
-export const BOOT_MS = 1150; // + 300ms fade = under 1.5s total
+export const BOOT_MS = 1050; // + 300ms fade = about 1.35s total
 
 const randomGlyph = () => GLYPHS[Math.floor(Math.random() * GLYPHS.length)];
 
