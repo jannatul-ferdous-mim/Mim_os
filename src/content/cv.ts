@@ -17,7 +17,7 @@ export const profile = {
         github: 'https://github.com/jannatul-ferdous-mim',
         scholar: 'https://scholar.google.com/citations?view_op=list_works&hl=en&user=D6hrMToAAAAJ',
     },
-    photo: '', // TODO(mim): put a photo in mim-os/public (e.g. public/me.jpg) and set '/me.jpg'. Empty shows an initials placeholder.
+    photo: '/mim-photo.jpg', // file in mim-os/public; '' shows an initials placeholder
     resumePdf: '/Jannatul_Ferdous_Mim_CV.pdf', // copy the CV PDF into /public with this name
 };
 
@@ -115,15 +115,15 @@ export const publications = [
         venue: 'ORACLE Workshop @ EMNLP 2026',
         status: 'Accepted',
         note: '*equal contribution',
-        links: { code: 'https://github.com/alvi00/CultAct-ML', paper: '' }, // TODO(mim): paper link (code link taken from the CV PDF)
+        links: { code: 'https://github.com/alvi00/CultAct-ML', paper: '' }, // paper: add once published
     },
     {
         title: 'PRECEPT: Memory-Driven Multi-Agent Reasoning for Reliable Medical Question Answering in English and Bangla',
-        authors: '', // TODO(mim): author list ('' hides the line)
+        authors: '', // hidden while under anonymous review
         venue: 'NAACL 2027',
         status: 'Under review',
         note: 'Introduces ReMedQA-Bangla, an item-aligned Bangla version of MedQA, MedMCQA and medical MMLU.',
-        links: { code: '', paper: '' }, // TODO(mim): code / paper links if public
+        links: { code: '', paper: '' }, // add once published
     },
     {
         title: 'MIMAL: A Self-Supervised Model Is a Training-Free Detector of AI-Generated Scientific Diagrams',
@@ -131,7 +131,7 @@ export const publications = [
         venue: 'ELITE Research Lab, 2026',
         status: 'Manuscript',
         note: '*equal contribution',
-        links: { code: 'https://github.com/eliteresearchlab/mimal', paper: '' }, // TODO(mim): paper link (code link taken from the CV PDF)
+        links: { code: 'https://github.com/eliteresearchlab/mimal', paper: '' }, // paper: add once published; repo must be public before launch
     },
 ];
 
