@@ -41,7 +41,7 @@ Mouse and keyboard events inside an iframe don't reach the parent page. [`src/li
 
 ## Deploying (Vercel)
 
-Import the repo in Vercel; the Vite preset is detected (build `npm run build`, output `dist`). `vercel.json` rewrites unknown paths to `index.html` so `/simple` works on reload. Put the resulting URL into `OS_URL` in `portfolio-website/src/Application/World/MonitorScreen.ts`.
+Import the repo in Vercel as a project named `mim-os` (gives <https://mim-os.vercel.app/>); the Vite preset is detected (build `npm run build`, output `dist`). `vercel.json` rewrites unknown paths to `index.html` so `/simple` works on reload. Put the resulting URL into `OS_URL` in `portfolio-website/src/Application/World/MonitorScreen.ts`.
 
 ## Credits
 

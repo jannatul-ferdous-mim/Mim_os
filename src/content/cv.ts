@@ -14,8 +14,8 @@ export const profile = {
     // Phone intentionally left off the public site.
     links: {
         linkedin: 'https://www.linkedin.com/in/jannatul-ferdous-mim-629054228',
-        github: 'https://github.com/jannatul-ferdous-mim', // TODO(mim): confirm this is your GitHub profile ('' hides it)
-        scholar: 'https://scholar.google.com/citations?view_op=list_works&hl=en&user=D6hrMToAAAAJ', // TODO(mim): optional, confirm this Scholar profile ('' hides it)
+        github: 'https://github.com/jannatul-ferdous-mim',
+        scholar: 'https://scholar.google.com/citations?view_op=list_works&hl=en&user=D6hrMToAAAAJ',
     },
     photo: '', // TODO(mim): put a photo in mim-os/public (e.g. public/me.jpg) and set '/me.jpg'. Empty shows an initials placeholder.
     resumePdf: '/Jannatul_Ferdous_Mim_CV.pdf', // copy the CV PDF into /public with this name
